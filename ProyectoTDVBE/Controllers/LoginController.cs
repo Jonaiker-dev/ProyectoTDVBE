@@ -62,7 +62,7 @@ namespace ProyectoTDVBE.Controllers
 
 			if (usuarioEncontrado == null)
 			{
-				return StatusCode(StatusCodes.Status200OK, new { isSuccess = false });
+				return StatusCode(500, new { isSuccess = false });
 			}
 			else
 			{

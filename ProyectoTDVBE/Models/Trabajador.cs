@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
 
 namespace ProyectoTDVBE.Models;
 
@@ -18,6 +19,6 @@ public partial class Trabajador
     public decimal Sueldo { get; set; }
 
     public DateOnly FechaIngreso { get; set; }
-
-    public virtual Puesto PuestoNavigation { get; set; } = null!;
+  
+    public virtual Puesto? PuestoNavigation{ get; set; } 
 }

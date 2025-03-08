@@ -26,7 +26,7 @@ namespace ProyectoTDVBE.Controllers
 			return await context.DetalleTrabajadors.ToListAsync();
 		}
 
-		// GET api/<DetallesController>/5
+		// GET api/<DetallesController>/5	
 
 	}
 }
